@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-itp-base",
+  "version": "1.0.0",
+  "description": "In The Pocket's base JS ESLint config, based on Airbnb's config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "itp",
+    "in the pocket",
+    "airbnb",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "In The Pocket",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "3.15.0",
+    "eslint-config-airbnb-base": "11.1.0",
+    "eslint-plugin-import": "2.2.0"
+  }
+}
