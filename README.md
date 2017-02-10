@@ -10,6 +10,17 @@ In The Pocket's base JavaScript ESLint config, based on [Airbnb's config](https:
 
 ## Usage
 
+Add the following to your .eslintrc file in the project root
+
+```json
+{
+  "extends": "itp-base"
+}
+```
+
+Run eslint
+
+
     eslint .
 
 ## License
