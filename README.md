@@ -6,7 +6,25 @@ In The Pocket's base JavaScript ESLint config, based on [Airbnb's config](https:
 
 ## Installation
 
-    npm install eslint-config-itp-base
+Install the correct versions of each package, which are listed by the command:
+
+```sh
+npm info "eslint-config-itp-base@latest" peerDependencies
+```
+
+Linux/OSX users can simply run
+```sh
+(
+export PKG=eslint-config-itp-base;
+npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
+)
+```
+
+Which produces and runs a command like:
+
+```sh
+npm install --save-dev eslint-config-itp-base eslint@^#.#.# eslint-plugin-import@^#.#.#
+```
 
 ## Usage
 
@@ -20,8 +38,9 @@ Add the following to your .eslintrc file in the project root
 
 Run eslint
 
-
-    eslint .
+```sh
+eslint .
+```
 
 ## License
 
