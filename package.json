@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-itp-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "In The Pocket's base JS ESLint config, based on Airbnb's config",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,10 @@
   "dependencies": {
     "eslint": "3.15.0",
     "eslint-config-airbnb-base": "11.1.0",
+    "eslint-plugin-import": "2.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "3.15.0",
     "eslint-plugin-import": "2.2.0"
   }
 }
