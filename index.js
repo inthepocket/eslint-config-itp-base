@@ -11,6 +11,7 @@ module.exports = {
       exports: 'always-multiline',
       functions: 'ignore',
     }],
+    "no-underscore-dangle": ["error", { "allow": ["_id"] }],
   },
   env: {
     mocha: true,
