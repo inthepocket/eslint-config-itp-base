@@ -3,6 +3,7 @@ module.exports = {
   rules: {
     'arrow-body-style': ['warn', 'as-needed'],
     'no-param-reassign': ['error', { props: false }],
+    'no-plusplus': ['error', { 'allowForLoopAfterthoughts': true }],
     'func-names': 'off',
     'comma-dangle': ['error', {
       arrays: 'always-multiline',
