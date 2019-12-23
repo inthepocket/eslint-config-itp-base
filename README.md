@@ -1,5 +1,7 @@
 # Eslint config itp base
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/inthepocket/eslint-config-itp-base.svg)](https://greenkeeper.io/)
+
 [![NPM version][npm-version-image]][npm-url] [![MIT License][license-image]][license-url]
 
 In The Pocket's base JavaScript ESLint config, based on [Airbnb's config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb).
